@@ -8,7 +8,7 @@ const userInput = NaN;
 
 if (typeof userInput === 'number' && !isNaN(userInput)){
     console.log(`T :${userInput} <- This is Number`);
-}else{
+} else {
     console.log(`F :${userInput} <-This is not number /is NaN`);
 };
 
@@ -18,7 +18,9 @@ if (typeof userInput === 'number' && !isNaN(userInput)){
 //     console.log("it's not a number");
 // } else if (typeof userInput === "number") {
 //     console.log("It's a number");
-// } else console.log("It's not a number");
+// } else { 
+//   console.log("It's not a number")
+// };
 
 
 
