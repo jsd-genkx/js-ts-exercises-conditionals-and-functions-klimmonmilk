@@ -12,3 +12,33 @@ if (fruit === "apple") {
 } else {
 	console.log("Unknown fruit.");
 }
+
+switch (fruit) {
+	case "apple":
+		console.log("An apple a day keeps the doctor away.");
+		break;
+	case "banana":
+		console.log("Banana is good for potassium.");
+		break;
+	case "orange":
+		console.log("Oranges are full of vitamin C.");
+		break;
+	default:
+		console.log("Unknown fruit.");
+		break;
+};
+
+let fruity = "Apple";
+switch (fruity.toLowerCase()){
+    case "apple":
+        console.log("An apple a day keeps the doctor away.");
+    break;
+    case "banana":
+        console.log("Banana is good for potassium.");
+    break;
+    case "orange":
+        console.log("Oranges are full of vitamin C.");
+    break;
+    default:
+    console.log("Unknown fruit.");
+}
